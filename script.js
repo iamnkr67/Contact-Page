@@ -12,9 +12,17 @@ mailMeButton.addEventListener("click", () => {
 const whatsappButton = document.getElementById("whatsappButton");
 whatsappButton.addEventListener("click", () => {
   if (message.value) {
-    const whatsappUrl = `https://wa.me/+919801033159?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/+918092925661?text=${encodeURIComponent(
       message.value,
     )}`;
     window.open(whatsappUrl);
   }
+});
+
+const callButton = document.getElementById("callButton");
+callButton.addEventListener("click", () => {
+    if (message.value) {
+        const call = `tel:+91 8092925661`;
+        window.open(call);
+    }
 });
