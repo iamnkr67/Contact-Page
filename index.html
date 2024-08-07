@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+      form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      button {
+        margin: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your Name" />
+      <label for="message">Message:</label>
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter your message here"
+      ></textarea>
+      <button type="button" id="mailMeButton">Mail Me</button>
+      <button type="button" id="whatsappButton">Whatsapp Me</button>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
