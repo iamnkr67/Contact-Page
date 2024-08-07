@@ -21,8 +21,6 @@ whatsappButton.addEventListener("click", () => {
 
 const callButton = document.getElementById("callButton");
 callButton.addEventListener("click", () => {
-    if (message.value) {
         const call = `tel:+91 8092925661`;
         window.open(call);
-    }
 });
